@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    overflow-x:hidden ;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.header_components{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.each{
+    padding:0 10px;
+}
+.logocolor{
+    color:rgb(60,100,177) ;
+}
+.btncolor{
+    background-color: rgb(60,100,177);
+    color: white;
+    padding: 8px;
+    border-color:rgb(60,100,177) ;
+    border-radius: 4px;
+}
+.first_half{
+    background-color: #F3F5FA;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8vw;
+}
+.first_heading{
+    font-size: 35px ;
+    font-weight: bold;
+}
+.second_heading{
+    color: #A5ABAE;
+}
+.learnmore{
+    padding: 8px;
+    border-radius: 4px;
+    color: rgb(60,100,177);
+    border-color: rgb(60,100,177);
+}
+.cards{
+    padding-top: 70px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.eachcard{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    padding: 10vw;
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+}
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_half{
+    padding: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading2{
+    width:300px;
+    text-align: center;
+}
+.third_half{
+    padding: 6vw;
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+}
+.rectangle{
+    width: 400px;
+    height: 300px;
+    background-color: #A5ABAE;
+}
+.footer{
+    background-color:#F3F5FA ;
+    text-align: center;
+}
+.p{
+    padding-top: 30px;
+}
+.pb{
+    padding-bottom: 40px;
+}
+@media screen and (max-width: 768px){
+    .c{
+        display: none;
+    }
+    .third_half{
+        padding: 6vw;
+        display: grid;
+        grid-template-columns: 90vw;
+    }
+    .rectangle{
+        width: 200px;
+        height: 200px;
+    }
+}
